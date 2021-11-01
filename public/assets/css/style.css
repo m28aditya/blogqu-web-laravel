@@ -1,0 +1,19 @@
+body {
+    scroll-behavior: smooth;
+}
+.excerpt {
+    margin-top: -2vh;
+}
+.comment {
+    width: 50vw;
+}
+.comment > input {
+    height: 20vh;
+}
+trix-toolbar [data-trix-button-group="file-tools"] {
+    display: none;
+}
+trix-editor {
+    height: 100vh;
+    overflow-y: scroll;
+}
